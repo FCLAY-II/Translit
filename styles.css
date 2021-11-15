@@ -16,7 +16,8 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-h1, h2 {
+h1,
+h2 {
   font-family: 'Comic Sans MS', cursive;
   text-shadow: 0px 10px 20px black;
 }
@@ -34,13 +35,13 @@ h1, h2 {
   font-family: 'Comic Sans MS', cursive;
   outline: 2px solid black;
 }
-.resetInput{
+.resetInput {
   margin-left: 10px;
   font-size: 20px;
   font-family: 'Comic Sans MS', cursive;
   outline: 2px solid black;
 }
-.reset{
+.reset {
   margin-left: 100px;
   font-size: 20px;
   font-family: 'Comic Sans MS', cursive;
@@ -53,7 +54,8 @@ h1, h2 {
   display: flex;
 }
 
-.russian, .translit{ 
+.russian,
+.translit {
   font-family: 'Comic Sans MS', cursive;
   background-color: goldenrod;
   width: 500px;
@@ -67,18 +69,18 @@ h1, h2 {
   overflow: scroll;
 }
 
-.footer{
+.footer {
   padding-top: 25px;
   font-size: 40px;
 }
-a{
+a {
   text-decoration: none;
   color: black;
 }
-a:hover{
-  color:#66eefb;
+a:hover {
+  color: #66eefb;
 }
-h1:hover{
+h1:hover {
   color: #66eefb;
 }
 
@@ -89,21 +91,21 @@ h1:hover{
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.text:hover{
-  color:gold;
+.text:hover {
+  color: gold;
   overflow: unset;
   word-break: break-all;
   max-inline-size: fit-content;
   height: max-content;
-  opacity: 0,9;
+  opacity: 0, 9;
   white-space: normal;
 }
 
-.titleTranslit{
+.titleTranslit {
   text-decoration: underline;
 }
-.titleTranslitWrapper{
-  position:relative;
+.titleTranslitWrapper {
+  position: relative;
   display: flex;
   justify-content: center;
 }
@@ -120,7 +122,7 @@ h1:hover{
   transform-origin: 40px 40px;
 }
 .lds-roller div:after {
-  content: " ";
+  content: ' ';
   display: block;
   position: absolute;
   width: 7px;
